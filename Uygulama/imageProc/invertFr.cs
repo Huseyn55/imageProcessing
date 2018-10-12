@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,45 +10,32 @@ using System.Windows.Forms;
 
 namespace imageProc
 {
-    public partial class Form3 : Form
+    public partial class InvertFr : Form
     {
         Bitmap kaynak, islem;
-        public Form3()
+        public InvertFr()
         {
             InitializeComponent();
         }
 
-        private void ortalamaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void çAlıştırToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int gen = kaynak.Width;
             int yuk = kaynak.Height;
 
             islem = new Bitmap(gen, yuk);
 
-            for (int y=0;y<yuk;y++)
+            for (int y = 0; y < yuk; y++)
             {
-                for (int x=0;x<gen;x++)
+                for (int x = 0; x < gen; x++)
                 {
                     Color renkliRenk = kaynak.GetPixel(x, y);
-                    int gri = (renkliRenk.R + renkliRenk.G + renkliRenk.B) / 3;
-                    Color griRenk = Color.FromArgb(gri, gri, gri);
-                    islem.SetPixel(x, y, griRenk);
+                    Color yeniRenk = Color.FromArgb((255-renkliRenk.R), (255 - renkliRenk.G), (255 - renkliRenk.B));
+                    islem.SetPixel(x, y, yeniRenk);
                 }
             }
 
             islemBox.Image = islem;
-
-        }
-
-        private void kaydetToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            saveFileDialog1.Filter = "PNG|*.png";
-            DialogResult sonuc = saveFileDialog1.ShowDialog();
-            ImageFormat format = ImageFormat.Png;
-            if (sonuc==DialogResult.OK)
-            {
-                islem.Save(saveFileDialog1.FileName, format);
-            }
         }
 
         private void açToolStripMenuItem_Click(object sender, EventArgs e)

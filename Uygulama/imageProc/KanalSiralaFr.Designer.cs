@@ -1,6 +1,6 @@
 ﻿namespace imageProc
 {
-    partial class Form2
+    partial class KanalSiralaFr
     {
         /// <summary>
         /// Required designer variable.
@@ -31,33 +31,35 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dosyaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.açToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.renkGetirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kaydetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kanalTersleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rGBBRGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rGBGBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kaynakBox = new System.Windows.Forms.PictureBox();
+            this.islemBox = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.kaynakBox = new System.Windows.Forms.PictureBox();
-            this.xKor = new System.Windows.Forms.TextBox();
-            this.yKor = new System.Windows.Forms.TextBox();
-            this.renkBox = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kaynakBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.renkBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.islemBox)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dosyaToolStripMenuItem,
-            this.renkGetirToolStripMenuItem});
+            this.kanalTersleToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(640, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(995, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // dosyaToolStripMenuItem
             // 
             this.dosyaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.açToolStripMenuItem});
+            this.açToolStripMenuItem,
+            this.kaydetToolStripMenuItem});
             this.dosyaToolStripMenuItem.Name = "dosyaToolStripMenuItem";
             this.dosyaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.dosyaToolStripMenuItem.Text = "Dosya";
@@ -65,68 +67,75 @@
             // açToolStripMenuItem
             // 
             this.açToolStripMenuItem.Name = "açToolStripMenuItem";
-            this.açToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.açToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.açToolStripMenuItem.Text = "Aç";
             this.açToolStripMenuItem.Click += new System.EventHandler(this.açToolStripMenuItem_Click);
             // 
-            // renkGetirToolStripMenuItem
+            // kaydetToolStripMenuItem
             // 
-            this.renkGetirToolStripMenuItem.Name = "renkGetirToolStripMenuItem";
-            this.renkGetirToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.renkGetirToolStripMenuItem.Text = "Renk Getir";
-            this.renkGetirToolStripMenuItem.Click += new System.EventHandler(this.renkGetirToolStripMenuItem_Click);
+            this.kaydetToolStripMenuItem.Name = "kaydetToolStripMenuItem";
+            this.kaydetToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.kaydetToolStripMenuItem.Text = "Kaydet";
+            this.kaydetToolStripMenuItem.Click += new System.EventHandler(this.kaydetToolStripMenuItem_Click);
+            // 
+            // kanalTersleToolStripMenuItem
+            // 
+            this.kanalTersleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rGBBRGToolStripMenuItem,
+            this.rGBGBRToolStripMenuItem});
+            this.kanalTersleToolStripMenuItem.Name = "kanalTersleToolStripMenuItem";
+            this.kanalTersleToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
+            this.kanalTersleToolStripMenuItem.Text = "Kanal Sırala";
+            // 
+            // rGBBRGToolStripMenuItem
+            // 
+            this.rGBBRGToolStripMenuItem.Name = "rGBBRGToolStripMenuItem";
+            this.rGBBRGToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rGBBRGToolStripMenuItem.Text = "RGB->BRG";
+            this.rGBBRGToolStripMenuItem.Click += new System.EventHandler(this.rGBBRGToolStripMenuItem_Click);
+            // 
+            // rGBGBRToolStripMenuItem
+            // 
+            this.rGBGBRToolStripMenuItem.Name = "rGBGBRToolStripMenuItem";
+            this.rGBGBRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rGBGBRToolStripMenuItem.Text = "RGB->GBR";
+            this.rGBGBRToolStripMenuItem.Click += new System.EventHandler(this.rGBGBRToolStripMenuItem_Click);
+            // 
+            // kaynakBox
+            // 
+            this.kaynakBox.Location = new System.Drawing.Point(12, 27);
+            this.kaynakBox.Name = "kaynakBox";
+            this.kaynakBox.Size = new System.Drawing.Size(460, 480);
+            this.kaynakBox.TabIndex = 2;
+            this.kaynakBox.TabStop = false;
+            // 
+            // islemBox
+            // 
+            this.islemBox.Location = new System.Drawing.Point(500, 27);
+            this.islemBox.Name = "islemBox";
+            this.islemBox.Size = new System.Drawing.Size(460, 480);
+            this.islemBox.TabIndex = 3;
+            this.islemBox.TabStop = false;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // kaynakBox
-            // 
-            this.kaynakBox.Location = new System.Drawing.Point(13, 28);
-            this.kaynakBox.Name = "kaynakBox";
-            this.kaynakBox.Size = new System.Drawing.Size(460, 480);
-            this.kaynakBox.TabIndex = 1;
-            this.kaynakBox.TabStop = false;
-            // 
-            // xKor
-            // 
-            this.xKor.Location = new System.Drawing.Point(519, 28);
-            this.xKor.Name = "xKor";
-            this.xKor.Size = new System.Drawing.Size(100, 20);
-            this.xKor.TabIndex = 2;
-            // 
-            // yKor
-            // 
-            this.yKor.Location = new System.Drawing.Point(519, 54);
-            this.yKor.Name = "yKor";
-            this.yKor.Size = new System.Drawing.Size(100, 20);
-            this.yKor.TabIndex = 3;
-            // 
-            // renkBox
-            // 
-            this.renkBox.Location = new System.Drawing.Point(519, 91);
-            this.renkBox.Name = "renkBox";
-            this.renkBox.Size = new System.Drawing.Size(100, 95);
-            this.renkBox.TabIndex = 4;
-            this.renkBox.TabStop = false;
-            // 
-            // Form2
+            // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(640, 557);
-            this.Controls.Add(this.renkBox);
-            this.Controls.Add(this.yKor);
-            this.Controls.Add(this.xKor);
+            this.ClientSize = new System.Drawing.Size(995, 536);
+            this.Controls.Add(this.islemBox);
             this.Controls.Add(this.kaynakBox);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form2";
-            this.Text = "Renk Getirme Formu";
+            this.Name = "Form4";
+            this.Text = "Kanal Sıralama Formu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kaynakBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.renkBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.islemBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,12 +146,13 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem dosyaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem açToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem renkGetirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kaydetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kanalTersleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rGBBRGToolStripMenuItem;
+        private System.Windows.Forms.PictureBox kaynakBox;
+        private System.Windows.Forms.PictureBox islemBox;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
-        private System.Windows.Forms.PictureBox kaynakBox;
-        private System.Windows.Forms.TextBox xKor;
-        private System.Windows.Forms.TextBox yKor;
-        private System.Windows.Forms.PictureBox renkBox;
+        private System.Windows.Forms.ToolStripMenuItem rGBGBRToolStripMenuItem;
     }
 }

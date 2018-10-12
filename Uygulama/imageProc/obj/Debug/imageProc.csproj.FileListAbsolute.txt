@@ -24,3 +24,19 @@ D:\c#_projects\imageProcessing\Uygulama\imageProc\imageProc\obj\Debug\imageProc.
 D:\c#_projects\imageProcessing\Uygulama\imageProc\imageProc\obj\Debug\imageProc.csproj.CoreCompileInputs.cache
 D:\c#_projects\imageProcessing\Uygulama\imageProc\imageProc\obj\Debug\imageProc.exe
 D:\c#_projects\imageProcessing\Uygulama\imageProc\imageProc\obj\Debug\imageProc.pdb
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\imageProc.exe.config
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\imageProc.exe
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\imageProc.pdb
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.csprojAssemblyReference.cache
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.histogramFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.Properties.Resources.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.csproj.GenerateResource.cache
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.csproj.CoreCompileInputs.cache
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.exe
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.pdb
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.invertFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.AnaForm.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.RenkAlFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.GriYontemleriFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.KanalSiralaFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.ParlaklikFr.resources

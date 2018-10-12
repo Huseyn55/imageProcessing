@@ -1,6 +1,6 @@
 ﻿namespace imageProc
 {
-    partial class Form1
+    partial class AnaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -35,6 +35,9 @@
             this.renkGetirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.griDönüşümToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kanalSıralaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.histogramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ınvertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.parlaklıkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,7 +72,10 @@
             this.işlemlerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.renkGetirToolStripMenuItem,
             this.griDönüşümToolStripMenuItem,
-            this.kanalSıralaToolStripMenuItem});
+            this.kanalSıralaToolStripMenuItem,
+            this.histogramToolStripMenuItem,
+            this.ınvertToolStripMenuItem,
+            this.parlaklıkToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
@@ -95,14 +101,35 @@
             this.kanalSıralaToolStripMenuItem.Text = "Kanal Sırala";
             this.kanalSıralaToolStripMenuItem.Click += new System.EventHandler(this.kanalSıralaToolStripMenuItem_Click);
             // 
-            // Form1
+            // histogramToolStripMenuItem
+            // 
+            this.histogramToolStripMenuItem.Name = "histogramToolStripMenuItem";
+            this.histogramToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.histogramToolStripMenuItem.Text = "Histogram";
+            this.histogramToolStripMenuItem.Click += new System.EventHandler(this.histogramToolStripMenuItem_Click);
+            // 
+            // ınvertToolStripMenuItem
+            // 
+            this.ınvertToolStripMenuItem.Name = "ınvertToolStripMenuItem";
+            this.ınvertToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ınvertToolStripMenuItem.Text = "Invert";
+            this.ınvertToolStripMenuItem.Click += new System.EventHandler(this.ınvertToolStripMenuItem_Click);
+            // 
+            // parlaklıkToolStripMenuItem
+            // 
+            this.parlaklıkToolStripMenuItem.Name = "parlaklıkToolStripMenuItem";
+            this.parlaklıkToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.parlaklıkToolStripMenuItem.Text = "Parlaklık";
+            this.parlaklıkToolStripMenuItem.Click += new System.EventHandler(this.parlaklıkToolStripMenuItem_Click);
+            // 
+            // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 333);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "AnaForm";
             this.Text = "Ana Form";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -120,6 +147,9 @@
         private System.Windows.Forms.ToolStripMenuItem renkGetirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem griDönüşümToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kanalSıralaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem histogramToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ınvertToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem parlaklıkToolStripMenuItem;
     }
 }
 

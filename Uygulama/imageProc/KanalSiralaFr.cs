@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace imageProc
 {
-    public partial class Form4 : Form
+    public partial class KanalSiralaFr : Form
     {
         Bitmap kaynak, islem;
-        public Form4()
+        public KanalSiralaFr()
         {
             InitializeComponent();
         }

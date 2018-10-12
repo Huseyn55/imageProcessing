@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace imageProc
 {
-    public partial class Form1 : Form
+    public partial class AnaForm : Form
     {
-        public Form1()
+        public AnaForm()
         {
             InitializeComponent();
         }
@@ -24,20 +24,38 @@ namespace imageProc
 
         private void renkGetirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 renkFormu = new Form2();
+            RenkAlFr renkFormu = new RenkAlFr();
             renkFormu.ShowDialog();
         }
 
         private void griDönüşümToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 griFormu = new Form3();
+            GriYontemleriFr griFormu = new GriYontemleriFr();
             griFormu.ShowDialog();
         }
 
         private void kanalSıralaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form4 kanalFormu = new Form4();
+            KanalSiralaFr kanalFormu = new KanalSiralaFr();
             kanalFormu.ShowDialog();
+        }
+
+        private void histogramToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HistogramFr histogramFormu = new HistogramFr();
+            histogramFormu.ShowDialog();
+        }
+
+        private void ınvertToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InvertFr invertFormu = new InvertFr();
+            invertFormu.ShowDialog();
+        }
+
+        private void parlaklıkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ParlaklikFr parlaklikFormu = new ParlaklikFr();
+            parlaklikFormu.ShowDialog();
         }
     }
 }

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace imageProc
 {
-    public partial class Form2 : Form
+    public partial class RenkAlFr : Form
     {
         Bitmap kaynak;
-        public Form2()
+        public RenkAlFr()
         {
             InitializeComponent();
         }
