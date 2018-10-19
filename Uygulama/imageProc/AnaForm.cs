@@ -57,5 +57,11 @@ namespace imageProc
             ParlaklikFr parlaklikFormu = new ParlaklikFr();
             parlaklikFormu.ShowDialog();
         }
+
+        private void ikiliGörüntülerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ikiliFr ikiliForm = new ikiliFr();
+            ikiliForm.ShowDialog();
+        }
     }
 }

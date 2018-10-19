@@ -38,6 +38,7 @@
             this.histogramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ınvertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.parlaklıkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ikiliGörüntülerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +76,8 @@
             this.kanalSıralaToolStripMenuItem,
             this.histogramToolStripMenuItem,
             this.ınvertToolStripMenuItem,
-            this.parlaklıkToolStripMenuItem});
+            this.parlaklıkToolStripMenuItem,
+            this.ikiliGörüntülerToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
@@ -83,44 +85,51 @@
             // renkGetirToolStripMenuItem
             // 
             this.renkGetirToolStripMenuItem.Name = "renkGetirToolStripMenuItem";
-            this.renkGetirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.renkGetirToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.renkGetirToolStripMenuItem.Text = "Renk Getir";
             this.renkGetirToolStripMenuItem.Click += new System.EventHandler(this.renkGetirToolStripMenuItem_Click);
             // 
             // griDönüşümToolStripMenuItem
             // 
             this.griDönüşümToolStripMenuItem.Name = "griDönüşümToolStripMenuItem";
-            this.griDönüşümToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.griDönüşümToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.griDönüşümToolStripMenuItem.Text = "Gri Yöntemleri";
             this.griDönüşümToolStripMenuItem.Click += new System.EventHandler(this.griDönüşümToolStripMenuItem_Click);
             // 
             // kanalSıralaToolStripMenuItem
             // 
             this.kanalSıralaToolStripMenuItem.Name = "kanalSıralaToolStripMenuItem";
-            this.kanalSıralaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kanalSıralaToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.kanalSıralaToolStripMenuItem.Text = "Kanal Sırala";
             this.kanalSıralaToolStripMenuItem.Click += new System.EventHandler(this.kanalSıralaToolStripMenuItem_Click);
             // 
             // histogramToolStripMenuItem
             // 
             this.histogramToolStripMenuItem.Name = "histogramToolStripMenuItem";
-            this.histogramToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.histogramToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.histogramToolStripMenuItem.Text = "Histogram";
             this.histogramToolStripMenuItem.Click += new System.EventHandler(this.histogramToolStripMenuItem_Click);
             // 
             // ınvertToolStripMenuItem
             // 
             this.ınvertToolStripMenuItem.Name = "ınvertToolStripMenuItem";
-            this.ınvertToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ınvertToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.ınvertToolStripMenuItem.Text = "Invert";
             this.ınvertToolStripMenuItem.Click += new System.EventHandler(this.ınvertToolStripMenuItem_Click);
             // 
             // parlaklıkToolStripMenuItem
             // 
             this.parlaklıkToolStripMenuItem.Name = "parlaklıkToolStripMenuItem";
-            this.parlaklıkToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.parlaklıkToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.parlaklıkToolStripMenuItem.Text = "Parlaklık";
             this.parlaklıkToolStripMenuItem.Click += new System.EventHandler(this.parlaklıkToolStripMenuItem_Click);
+            // 
+            // ikiliGörüntülerToolStripMenuItem
+            // 
+            this.ikiliGörüntülerToolStripMenuItem.Name = "ikiliGörüntülerToolStripMenuItem";
+            this.ikiliGörüntülerToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.ikiliGörüntülerToolStripMenuItem.Text = "İkili Görüntü İşlemleri";
+            this.ikiliGörüntülerToolStripMenuItem.Click += new System.EventHandler(this.ikiliGörüntülerToolStripMenuItem_Click);
             // 
             // AnaForm
             // 
@@ -150,6 +159,7 @@
         private System.Windows.Forms.ToolStripMenuItem histogramToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ınvertToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem parlaklıkToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ikiliGörüntülerToolStripMenuItem;
     }
 }
 
