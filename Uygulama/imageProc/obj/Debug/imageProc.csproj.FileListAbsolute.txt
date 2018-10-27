@@ -58,3 +58,28 @@ D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imagePro
 D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.csproj.CoreCompileInputs.cache
 D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.exe
 D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.pdb
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\imageProc.exe.config
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\imageProc.exe
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\imageProc.pdb
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\AForge.Imaging.dll
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\AForge.dll
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\AForge.Math.dll
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\AForge.Imaging.xml
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\AForge.xml
+D:\c#_projects\imageProcessing\Uygulama\imageProc\bin\Debug\AForge.Math.xml
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.csprojAssemblyReference.cache
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.AnaForm.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.ikiliFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.ParlaklikFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.RenkAlFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.GriYontemleriFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.KanalSiralaFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.HistogramFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.InvertFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.Properties.Resources.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.thresholdFr.resources
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.csproj.GenerateResource.cache
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.csproj.CoreCompileInputs.cache
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.csproj.CopyComplete
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.exe
+D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.pdb

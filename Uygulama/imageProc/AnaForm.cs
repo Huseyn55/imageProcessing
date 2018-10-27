@@ -63,5 +63,11 @@ namespace imageProc
             ikiliFr ikiliForm = new ikiliFr();
             ikiliForm.ShowDialog();
         }
+
+        private void thresholdToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            thresholdFr thresholdFormu = new thresholdFr();
+            thresholdFormu.ShowDialog();
+        }
     }
 }

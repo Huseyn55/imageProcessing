@@ -39,6 +39,7 @@
             this.ınvertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.parlaklıkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ikiliGörüntülerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thresholdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,7 +78,8 @@
             this.histogramToolStripMenuItem,
             this.ınvertToolStripMenuItem,
             this.parlaklıkToolStripMenuItem,
-            this.ikiliGörüntülerToolStripMenuItem});
+            this.ikiliGörüntülerToolStripMenuItem,
+            this.thresholdToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
@@ -131,6 +133,13 @@
             this.ikiliGörüntülerToolStripMenuItem.Text = "İkili Görüntü İşlemleri";
             this.ikiliGörüntülerToolStripMenuItem.Click += new System.EventHandler(this.ikiliGörüntülerToolStripMenuItem_Click);
             // 
+            // thresholdToolStripMenuItem
+            // 
+            this.thresholdToolStripMenuItem.Name = "thresholdToolStripMenuItem";
+            this.thresholdToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.thresholdToolStripMenuItem.Text = "Threshold";
+            this.thresholdToolStripMenuItem.Click += new System.EventHandler(this.thresholdToolStripMenuItem_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,6 +169,7 @@
         private System.Windows.Forms.ToolStripMenuItem ınvertToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem parlaklıkToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ikiliGörüntülerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thresholdToolStripMenuItem;
     }
 }
 
