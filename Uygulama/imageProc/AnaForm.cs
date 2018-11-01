@@ -69,5 +69,11 @@ namespace imageProc
             thresholdFr thresholdFormu = new thresholdFr();
             thresholdFormu.ShowDialog();
         }
+
+        private void lowHighPassİşlemleriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lowHighFr lowHighFormu = new lowHighFr();
+            lowHighFormu.ShowDialog();
+        }
     }
 }

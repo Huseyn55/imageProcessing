@@ -40,6 +40,7 @@
             this.parlaklıkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ikiliGörüntülerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thresholdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lowHighPassİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +80,8 @@
             this.ınvertToolStripMenuItem,
             this.parlaklıkToolStripMenuItem,
             this.ikiliGörüntülerToolStripMenuItem,
-            this.thresholdToolStripMenuItem});
+            this.thresholdToolStripMenuItem,
+            this.lowHighPassİşlemleriToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
@@ -87,58 +89,65 @@
             // renkGetirToolStripMenuItem
             // 
             this.renkGetirToolStripMenuItem.Name = "renkGetirToolStripMenuItem";
-            this.renkGetirToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.renkGetirToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.renkGetirToolStripMenuItem.Text = "Renk Getir";
             this.renkGetirToolStripMenuItem.Click += new System.EventHandler(this.renkGetirToolStripMenuItem_Click);
             // 
             // griDönüşümToolStripMenuItem
             // 
             this.griDönüşümToolStripMenuItem.Name = "griDönüşümToolStripMenuItem";
-            this.griDönüşümToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.griDönüşümToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.griDönüşümToolStripMenuItem.Text = "Gri Yöntemleri";
             this.griDönüşümToolStripMenuItem.Click += new System.EventHandler(this.griDönüşümToolStripMenuItem_Click);
             // 
             // kanalSıralaToolStripMenuItem
             // 
             this.kanalSıralaToolStripMenuItem.Name = "kanalSıralaToolStripMenuItem";
-            this.kanalSıralaToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.kanalSıralaToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.kanalSıralaToolStripMenuItem.Text = "Kanal Sırala";
             this.kanalSıralaToolStripMenuItem.Click += new System.EventHandler(this.kanalSıralaToolStripMenuItem_Click);
             // 
             // histogramToolStripMenuItem
             // 
             this.histogramToolStripMenuItem.Name = "histogramToolStripMenuItem";
-            this.histogramToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.histogramToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.histogramToolStripMenuItem.Text = "Histogram";
             this.histogramToolStripMenuItem.Click += new System.EventHandler(this.histogramToolStripMenuItem_Click);
             // 
             // ınvertToolStripMenuItem
             // 
             this.ınvertToolStripMenuItem.Name = "ınvertToolStripMenuItem";
-            this.ınvertToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.ınvertToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.ınvertToolStripMenuItem.Text = "Invert";
             this.ınvertToolStripMenuItem.Click += new System.EventHandler(this.ınvertToolStripMenuItem_Click);
             // 
             // parlaklıkToolStripMenuItem
             // 
             this.parlaklıkToolStripMenuItem.Name = "parlaklıkToolStripMenuItem";
-            this.parlaklıkToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.parlaklıkToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.parlaklıkToolStripMenuItem.Text = "Parlaklık";
             this.parlaklıkToolStripMenuItem.Click += new System.EventHandler(this.parlaklıkToolStripMenuItem_Click);
             // 
             // ikiliGörüntülerToolStripMenuItem
             // 
             this.ikiliGörüntülerToolStripMenuItem.Name = "ikiliGörüntülerToolStripMenuItem";
-            this.ikiliGörüntülerToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.ikiliGörüntülerToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.ikiliGörüntülerToolStripMenuItem.Text = "İkili Görüntü İşlemleri";
             this.ikiliGörüntülerToolStripMenuItem.Click += new System.EventHandler(this.ikiliGörüntülerToolStripMenuItem_Click);
             // 
             // thresholdToolStripMenuItem
             // 
             this.thresholdToolStripMenuItem.Name = "thresholdToolStripMenuItem";
-            this.thresholdToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.thresholdToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.thresholdToolStripMenuItem.Text = "Threshold";
             this.thresholdToolStripMenuItem.Click += new System.EventHandler(this.thresholdToolStripMenuItem_Click);
+            // 
+            // lowHighPassİşlemleriToolStripMenuItem
+            // 
+            this.lowHighPassİşlemleriToolStripMenuItem.Name = "lowHighPassİşlemleriToolStripMenuItem";
+            this.lowHighPassİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.lowHighPassİşlemleriToolStripMenuItem.Text = "Low High Pass Filtreleri";
+            this.lowHighPassİşlemleriToolStripMenuItem.Click += new System.EventHandler(this.lowHighPassİşlemleriToolStripMenuItem_Click);
             // 
             // AnaForm
             // 
@@ -170,6 +179,7 @@
         private System.Windows.Forms.ToolStripMenuItem parlaklıkToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ikiliGörüntülerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thresholdToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lowHighPassİşlemleriToolStripMenuItem;
     }
 }
 

@@ -83,3 +83,12 @@ D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.csproj.Cor
 D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.csproj.CopyComplete
 D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.exe
 D:\c#_projects\imageProcessing\Uygulama\imageProc\obj\Debug\imageProc.pdb
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\bin\Debug\AForge.Imaging.dll
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\bin\Debug\AForge.dll
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\bin\Debug\AForge.Math.dll
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\bin\Debug\AForge.Imaging.xml
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\bin\Debug\AForge.xml
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\bin\Debug\AForge.Math.xml
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.lowHighFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.thresholdFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.csproj.CopyComplete

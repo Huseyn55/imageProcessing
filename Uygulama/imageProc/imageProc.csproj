@@ -62,6 +62,12 @@
     <Compile Include="ikiliFr.Designer.cs">
       <DependentUpon>ikiliFr.cs</DependentUpon>
     </Compile>
+    <Compile Include="lowHighFr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lowHighFr.Designer.cs">
+      <DependentUpon>lowHighFr.cs</DependentUpon>
+    </Compile>
     <Compile Include="ParlaklikFr.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ikiliFr.resx">
       <DependentUpon>ikiliFr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lowHighFr.resx">
+      <DependentUpon>lowHighFr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ParlaklikFr.resx">
       <DependentUpon>ParlaklikFr.cs</DependentUpon>
