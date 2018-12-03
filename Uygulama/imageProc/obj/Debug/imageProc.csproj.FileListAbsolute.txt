@@ -92,3 +92,14 @@ D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\bin\Debug\AForge.M
 D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.lowHighFr.resources
 D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.thresholdFr.resources
 D:\Image Processing\2018-19Guz\kaynakProg\Uygulama1\imageProc\obj\Debug\imageProc.csproj.CopyComplete
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\AForge.Imaging.dll
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\AForge.dll
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\AForge.Math.dll
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\AForge.Imaging.xml
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\AForge.xml
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\bin\Debug\AForge.Math.xml
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.lowHighFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.segmenteFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.thresholdFr.resources
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.csproj.CopyComplete
+D:\Image Processing\2018-19Guz\kaynakProg\Uygulama\imageProc\obj\Debug\imageProc.ledYakFr.resources

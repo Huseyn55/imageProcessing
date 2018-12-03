@@ -75,5 +75,17 @@ namespace imageProc
             lowHighFr lowHighFormu = new lowHighFr();
             lowHighFormu.ShowDialog();
         }
+
+        private void segmenteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            segmenteFr segmenteFormu = new segmenteFr();
+            segmenteFormu.ShowDialog();
+        }
+
+        private void ledYakToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ledYakFr ledFormu = new ledYakFr();
+            ledFormu.ShowDialog();
+        }
     }
 }

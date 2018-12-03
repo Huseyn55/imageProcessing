@@ -41,6 +41,8 @@
             this.ikiliGörüntülerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thresholdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lowHighPassİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.segmenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ledYakToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,7 +83,9 @@
             this.parlaklıkToolStripMenuItem,
             this.ikiliGörüntülerToolStripMenuItem,
             this.thresholdToolStripMenuItem,
-            this.lowHighPassİşlemleriToolStripMenuItem});
+            this.lowHighPassİşlemleriToolStripMenuItem,
+            this.segmenteToolStripMenuItem,
+            this.ledYakToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
@@ -149,6 +153,20 @@
             this.lowHighPassİşlemleriToolStripMenuItem.Text = "Low High Pass Filtreleri";
             this.lowHighPassİşlemleriToolStripMenuItem.Click += new System.EventHandler(this.lowHighPassİşlemleriToolStripMenuItem_Click);
             // 
+            // segmenteToolStripMenuItem
+            // 
+            this.segmenteToolStripMenuItem.Name = "segmenteToolStripMenuItem";
+            this.segmenteToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.segmenteToolStripMenuItem.Text = "Segmente";
+            this.segmenteToolStripMenuItem.Click += new System.EventHandler(this.segmenteToolStripMenuItem_Click);
+            // 
+            // ledYakToolStripMenuItem
+            // 
+            this.ledYakToolStripMenuItem.Name = "ledYakToolStripMenuItem";
+            this.ledYakToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.ledYakToolStripMenuItem.Text = "Led Yak";
+            this.ledYakToolStripMenuItem.Click += new System.EventHandler(this.ledYakToolStripMenuItem_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,6 +198,8 @@
         private System.Windows.Forms.ToolStripMenuItem ikiliGörüntülerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thresholdToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lowHighPassİşlemleriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem segmenteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ledYakToolStripMenuItem;
     }
 }
 
